@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@types/uuid": "^9.0.7",
 		"class-variance-authority": "^0.7.0",
 		"eslint-config-standard": "^17.1.0",
 		"next": "14.0.3",
