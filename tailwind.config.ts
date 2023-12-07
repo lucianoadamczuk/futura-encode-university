@@ -7,7 +7,10 @@ const config: Config = {
 		'./src/app/**/*.{js,ts,jsx,tsx,mdx}',
 	],
 	theme: {
-		extend: {},
+		fontFamily: {
+			title: ['var(--fontTitle)'],
+			base: ['var(--fontBase)'],
+		},
 		container: {
 			padding: {
 				DEFAULT: '1rem',

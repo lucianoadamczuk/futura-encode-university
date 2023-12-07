@@ -1,0 +1,39 @@
+{
+  "title": "Inspiring Words:",
+  "subtitle": " Testimonies from Our Students",
+  "text": [
+    "In the vibrant learning community we build together, our students' experiences are the true essence of our mission."
+  ],
+  "testimonies": [
+    {
+      "text": "The educational experience here exceeded all my expectations. The dedication of the staff and the quality of teaching truly prepared me for success. Thank you!",
+      "name": "Sofia Rodriguez",
+      "profession": "UX/UI Designer"
+    },
+    {
+      "text": "As a student, I've found an enriching learning environment and constant support. The variety of courses has allowed me to explore my passions and grow both personally and academically.",
+      "name": "James Thompson",
+      "profession": "Front end developer"
+    },
+    {
+      "text": "I am grateful for the flexibility this institution offers. Balancing my daily responsibilities with higher education has been crucial for my professional progress.",
+      "name": "Emma Chen",
+      "profession": "CTO of Banckus"
+    },
+    {
+      "text": "Every class feels like an opportunity to grow and learn something new. Professors are committed and always willing to help. An exceptional educational experience!",
+      "name": "Alejandro Martinez",
+      "profession": "Regional manager of GlobalX"
+    },
+    {
+      "text": "The student community here is incredible. I feel part of something bigger and always find inspiration in my classmates. A transformative experience.",
+      "name": "Mia Johnson",
+      "profession": "Community Manager"
+    },
+    {
+      "text": "Innovation and educational quality blend seamlessly in this institution. The available resources and practical approach have prepared me to face real-world challenges with confidence.",
+      "name": "Lucas Brown",
+      "profession": "Full Stack Developer"
+    }
+  ]
+}

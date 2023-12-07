@@ -1,0 +1,12 @@
+{
+	"title": "Welcome to the University of the Future",
+	"subtitle": "The education of the future",
+	"text": [
+		"In a fully virtual environment, we invite you to explore a vast world of knowledge with no geographical limits or barriers.",
+		"Our mission is to bring academic excellence directly to your fingertips, providing you with access to high-quality online courses taught by experts in their fields."
+	],
+	"image": {
+		"src": "/assets/intro.jpg",
+		"alt": "A  student with his laptop"
+	}
+}

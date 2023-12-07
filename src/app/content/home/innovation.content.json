@@ -1,0 +1,24 @@
+{
+	"cards": [
+		{
+			"src": "",
+			"title": "Explore",
+			"text": "Acquire the knowledge needed to bring your ideas to life."
+		},
+		{
+			"src": "",
+			"title": "Connect",
+			"text": "Join a community of students and professionals to amplify your learning."
+		},
+		{
+			"src": "",
+			"title": "Innovate",
+			"text": "Generate impact with substantial projects that can reshape the world."
+		},
+		{
+			"src": "",
+			"title": "Transform",
+			"text": "Develop the skills to turn your aspirations into meaningful accomplishments."
+		}
+	]
+}
