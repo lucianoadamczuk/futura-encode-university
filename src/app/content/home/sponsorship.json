@@ -1,45 +1,45 @@
 {
-  "title": "Meaninfull collaboration:",
-  "subtitle": "Our partners and sponsors",
-  "text": [
-    "We extend our gratitude to those making our mission possible. Their support not only fuels our growth but also validates the quality of our programs."
-  ],
-  "image": {
-    "src": "/assets/sponsorships.jpg",
-    "alt": "A group of members meeting"
-  },
-  "companies": [
-    {
-      "src": "/assets/companies/accenture-logo.svg",
-      "alt": "accenture logo"
-    },
-    { "src": "/assets/companies/apple-logo.svg", "alt": "apple logo" },
-    {
-      "src": "/assets/companies/atlassian-logo.svg",
-      "alt": "atlassian logo"
-    },
-    {
-      "src": "/assets/companies/broadcom-logo.svg",
-      "alt": "broadcom logo"
-    },
-    {
-      "src": "/assets/companies/capgemini-logo.svg",
-      "alt": "capgemini logo"
-    },
-    { "src": "/assets/companies/cisco-logo.svg", "alt": "cisco logo" },
-    { "src": "/assets/companies/meta-logo.svg", "alt": "meta logo" },
-    {
-      "src": "/assets/companies/microsoft-logo.svg",
-      "alt": "microsoft logo"
-    },
-    { "src": "/assets/companies/oracle-logo.svg", "alt": "oracle logo" },
-    {
-      "src": "/assets/companies/salesforce-logo.svg",
-      "alt": "salesforce logo"
-    },
-    { "src": "/assets/companies/samsung-logo.svg", "alt": "samsung logo" },
-    { "src": "/assets/companies/shopify-logo.svg", "alt": "shopify logo" },
-    { "src": "/assets/companies/uber-logo.svg", "alt": "uber logo" },
-    { "src": "/assets/companies/vmware-logo.svg", "alt": "vmware logo" }
-  ]
+	"title": "Meaninfull collaboration:",
+	"subtitle": "Our partners and sponsors",
+	"text": [
+		"We extend our gratitude to those making our mission possible. Their support not only fuels our growth but also validates the quality of our programs."
+	],
+	"image": {
+		"src": "/assets/home/sponsorships.jpg",
+		"alt": "A group of members meeting"
+	},
+	"sponsors": [
+		{
+			"src": "/assets/sponsors/accenture-logo.svg",
+			"alt": "accenture logo"
+		},
+		{ "src": "/assets/sponsors/apple-logo.svg", "alt": "apple logo" },
+		{
+			"src": "/assets/sponsors/atlassian-logo.svg",
+			"alt": "atlassian logo"
+		},
+		{
+			"src": "/assets/sponsors/broadcom-logo.svg",
+			"alt": "broadcom logo"
+		},
+		{
+			"src": "/assets/sponsors/capgemini-logo.svg",
+			"alt": "capgemini logo"
+		},
+		{ "src": "/assets/sponsors/cisco-logo.svg", "alt": "cisco logo" },
+		{ "src": "/assets/sponsors/meta-logo.svg", "alt": "meta logo" },
+		{
+			"src": "/assets/sponsors/microsoft-logo.svg",
+			"alt": "microsoft logo"
+		},
+		{ "src": "/assets/sponsors/oracle-logo.svg", "alt": "oracle logo" },
+		{
+			"src": "/assets/sponsors/salesforce-logo.svg",
+			"alt": "salesforce logo"
+		},
+		{ "src": "/assets/sponsors/samsung-logo.svg", "alt": "samsung logo" },
+		{ "src": "/assets/sponsors/shopify-logo.svg", "alt": "shopify logo" },
+		{ "src": "/assets/sponsors/uber-logo.svg", "alt": "uber logo" },
+		{ "src": "/assets/sponsors/vmware-logo.svg", "alt": "vmware logo" }
+	]
 }

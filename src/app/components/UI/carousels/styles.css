@@ -1,0 +1,18 @@
+.mySwiper {
+	width: 100%;
+	> .swiper-wrapper {
+		> .swiper-slide {
+			@apply py-8 px-5;
+		}
+	}
+	> .swiper-pagination {
+		> .swiper-pagination-bullet {
+			@apply bg-primary-dark;
+		}
+	}
+}
+.CarouselNonStop {
+	> .swiper-wrapper {
+		transition: linear;
+	}
+}

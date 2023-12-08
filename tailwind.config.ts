@@ -7,6 +7,18 @@ const config: Config = {
 		'./src/app/**/*.{js,ts,jsx,tsx,mdx}',
 	],
 	theme: {
+		extend: {
+			padding: {
+				container: 'var(--paddingContainer)',
+			},
+		},
+		screens: {
+			sm: '640px',
+			md: '768px',
+			lg: '1024px',
+			xl: '1280px',
+			'2xl': '1536px',
+		},
 		fontFamily: {
 			title: ['var(--fontTitle)'],
 			base: ['var(--fontBase)'],
@@ -27,7 +39,8 @@ const config: Config = {
 			gray: '#737373',
 			'gray-soft': '#BFBFBF',
 
-			'dark-soft': '#404040',
+			// 'dark-soft': '#404040',
+			'dark-soft': '#333333',
 			dark: '#262626',
 
 			primary: '#5E17A6',

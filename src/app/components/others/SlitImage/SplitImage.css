@@ -1,0 +1,49 @@
+.SplitImage {
+	> .firstImage,
+	.secondImage,
+	.thirdImage {
+		animation: linear infinite alternate;
+	}
+
+	> .firstImage {
+		animation-name: firstImage;
+		animation-duration: 2s;
+	}
+
+	> .secondImage {
+		animation-name: secondImage;
+		animation-duration: 6s;
+	}
+
+	> .thirdImage {
+		animation-name: thirdImage;
+		animation-duration: 4s;
+	}
+}
+
+@keyframes firstImage {
+	0% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(30px);
+	}
+}
+
+@keyframes secondImage {
+	0% {
+		transform: translateY(-50px);
+	}
+	100% {
+		transform: translateY(30px);
+	}
+}
+
+@keyframes thirdImage {
+	0% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(20px);
+	}
+}

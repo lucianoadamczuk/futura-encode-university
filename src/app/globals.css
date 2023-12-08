@@ -22,6 +22,10 @@ h6 {
 
 /* font sizes */
 
+h1 {
+	@apply text-7xl;
+}
+
 h3 {
 	@apply text-4xl;
 }
@@ -33,4 +37,47 @@ h5 {
 }
 h6 {
 	@apply text-lg;
+}
+
+/* * special paddingContainer */
+/* screens: {
+	sm: '640px',
+	md: '768px',
+	lg: '1024px',
+	xl: '1280px',
+	'2xl': '1536px',
+}, */
+
+/* DEFAULT: '1rem',
+sm: '2rem',
+lg: '4rem',
+xl: '5rem',
+'2xl': '6rem', */
+
+:root {
+	--paddingContainer: 1rem;
+}
+
+@media (width >= 640px) {
+	:root {
+		--paddingContainer: 2rem;
+	}
+}
+
+@media (width >= 768px) {
+	:root {
+		--paddingContainer: 4rem;
+	}
+}
+
+@media (width >= 1024px) {
+	:root {
+		--paddingContainer: 5rem;
+	}
+}
+
+@media (width >= 1536px) {
+	:root {
+		--paddingContainer: 6rem;
+	}
 }

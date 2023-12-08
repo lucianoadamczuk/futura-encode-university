@@ -8,19 +8,19 @@
 		{
 			"name": "Nina Novak",
 			"role": "Founder and CEO",
-			"src": "/assets/directors/founder.jpeg",
+			"image": "/assets/directors/founder.jpeg",
 			"text": "The mastermind behind our school, has created an educational haven where diversity and excellence intertwine. Her passion and vision have turned our institution into a beacon of global learning, preparing students to conquer the world."
 		},
 		{
 			"name": "Malik Johnson",
 			"role": "Academic Director",
-			"src": "/assets/directors/academicDirector.jpg",
+			"image": "/assets/directors/academicDirector.jpg",
 			"text": "The architect of captivating educational programs. His meticulous approach has transformed our virtual classrooms into spaces where innovation and knowledge intertwine, preparing students for a future full of possibilities."
 		},
 		{
 			"name": "Igor Sokolov",
 			"role": "HR Director",
-			"src": "/assets/directors/HRDirector.jpg",
+			"image": "/assets/directors/HRDirector.jpg",
 			"text": "Our HR leader, is the heart of our community. Her human-centric approach and commitment to the well-being of our staff have created an exceptional work environment. Together, we build the future of learning."
 		}
 	],

@@ -1,12 +1,34 @@
 {
 	"title": "Welcome to the University of the Future",
-	"subtitle": "The education of the future",
+	"subtitle": "Be ready for the revolution",
 	"text": [
 		"In a fully virtual environment, we invite you to explore a vast world of knowledge with no geographical limits or barriers.",
 		"Our mission is to bring academic excellence directly to your fingertips, providing you with access to high-quality online courses taught by experts in their fields."
 	],
 	"image": {
-		"src": "/assets/intro.jpg",
+		"src": "/assets/home/intro.svg",
 		"alt": "A  student with his laptop"
-	}
+	},
+	"cards": [
+		{
+			"src": "/icons/iconMountains.svg",
+			"title": "Explore",
+			"text": "Acquire the knowledge needed to bring your ideas to life."
+		},
+		{
+			"src": "/icons/iconCommunity.svg",
+			"title": "Connect",
+			"text": "Join a community of students and professionals to amplify your learning."
+		},
+		{
+			"src": "/icons/iconBulb.svg",
+			"title": "Innovate",
+			"text": "Generate impact with substantial projects that can reshape the world."
+		},
+		{
+			"src": "/icons/iconStar.svg",
+			"title": "Transform",
+			"text": "Develop the skills to turn your aspirations into meaningful accomplishments."
+		}
+	]
 }
