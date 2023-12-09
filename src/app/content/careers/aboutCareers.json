@@ -1,0 +1,20 @@
+{
+	"image": {
+		"src": "assets/careers/aboutCareers.svg",
+		"alt": "A student"
+	},
+	"points": [
+		{
+			"title": "Innovation in Every Corner",
+			"text": "Immerse yourself in the dynamic world of online careers, where innovation is the key. Our programs are at the forefront of trends, providing you with the skills and knowledge needed to excel in the ever-evolving digital era."
+		},
+		{
+			"title": "Educational Customization",
+			"text": "We believe in the individuality of each student. Our catalog of careers offers versatile educational options that adapt to your needs and schedules. From specialized courses to comprehensive programs, you will find the perfect combination for your educational journey."
+		},
+		{
+			"title": "Expert Mentors at Your Fingertips",
+			"text": "At Futura Encode, we not only offer you knowledge but also personalized guidance. Our mentors, industry experts, are here to support you at every step. Their experience becomes your guiding light as you navigate the opportunities and challenges of your career."
+		}
+	]
+}

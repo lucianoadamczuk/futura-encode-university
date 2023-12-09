@@ -12,7 +12,10 @@ export const ButtonsBox = (props: Props) => {
 	const { firstDirection, firstText, secondDirection, seconText } = props;
 	return (
 		<div className=' flex flex-col md:flex-row gap-5'>
-			<Button href={firstDirection}> {firstText} </Button>
+			<Button href={firstDirection} primary={true} callToAction={true}>
+				{' '}
+				{firstText}{' '}
+			</Button>
 			<Button href={secondDirection}> {seconText} </Button>
 		</div>
 	);

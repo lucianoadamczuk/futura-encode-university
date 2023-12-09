@@ -1,0 +1,37 @@
+{
+	"title": "Why choose us?",
+	"cards": [
+		{
+			"title": "Affordable Tech, Invaluable Knowledge",
+			"text": "Embark on Futura Encode with budget-friendly programs. Expand your knowledge without emptying your wallet!",
+			"image": {
+				"src": "/icons/salesDiscount.svg",
+				"alt": "Ilustrative image"
+			}
+		},
+		{
+			"title": "Global Learning Hub",
+			"text": "Futura Encode ensures updated info for digital leadership. Join a global community and aim for the future.",
+			"image": {
+				"src": "/icons/world.svg",
+				"alt": "Ilustrative image"
+			}
+		},
+		{
+			"title": "Expert-Led Classes:",
+			"text": "Learn from industry pros. Practical classes will ensure your success.",
+			"image": {
+				"src": "/icons/teacher.svg",
+				"alt": "Ilustrative image"
+			}
+		},
+		{
+			"title": "Flexibility Matters",
+			"text": " Fits your schedule. Join and shape tomorrow without sacrificing today.",
+			"image": {
+				"src": "/icons/schedule.svg",
+				"alt": "Ilustrative image"
+			}
+		}
+	]
+}

@@ -3,23 +3,24 @@ import React from 'react';
 
 type Props = {
 	src: string;
+	alt: string;
 	text: string;
 };
 
 export const CardTextSmall = (props: Props) => {
-	const { src, text } = props;
+	const { src, alt, text } = props;
 	return (
-		<div className=' flex items-center divide-x-2 divide-dark-soft divide-opacity-60 '>
-			<div className=' w-fit p-1 rounded-md '>
+		<div className=' flex items-center gap-5 '>
+			<div className=' w-16 h-16   '>
 				<Image
 					src={src}
-					width={50}
-					height={50}
-					alt='A symbolic image'
-					className='w-16 h-16 opacity-40'
+					width={20}
+					height={20}
+					alt={alt}
+					className='w-full h-full bg-cover opacity-40'
 				/>
 			</div>
-			<small className=' ps-3'> {text} </small>
+			<small> {text} </small>
 		</div>
 	);
 };

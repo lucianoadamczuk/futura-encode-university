@@ -1,6 +1,6 @@
 'use client';
-import { v4 as uuidv4 } from 'uuid';
 import Image from 'next/image';
+import { v4 as uuidv4 } from 'uuid';
 import {
 	Banner,
 	Button,
@@ -11,17 +11,11 @@ import {
 } from './components/UI';
 import { TextBox } from './components/common/TextBox';
 import { content } from './content/home';
-import { Header, LayoutGrid, LayoutOut } from './layouts';
+import { LayoutGrid, LayoutOut } from './layouts';
 
 export default function Home() {
 	return (
 		<>
-			<Header
-				image={content.header.image}
-				title={content.header.title}
-				subtitle={content.header.subtitle}
-				text={content.header.text}
-			/>
 			<main>
 				{/* intro */}
 				<LayoutGrid>

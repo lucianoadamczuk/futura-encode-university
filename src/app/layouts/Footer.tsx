@@ -19,7 +19,7 @@ export const Footer = () => {
 			<div className=' flex justify-center  bg-gradient-to-b from-light from-50% to-dark to-50%'>
 				<div className=' py-3 w-3/4 bg-dark-soft rounded-xl'>
 					<h6 className=' text-center text-gray-soft animate-pulse'>
-						Be part of the future. Be part of us.
+						Be part of the future.
 					</h6>
 				</div>
 			</div>

@@ -1,1 +1,1 @@
-export { TemplateInOut } from './TemplateInOut';
+export { BulletsWithText } from './BulletsWithText';
