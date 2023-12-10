@@ -23,7 +23,7 @@ h6 {
 /* font sizes */
 
 h1 {
-	@apply text-7xl;
+	@apply text-5xl;
 }
 
 h3 {

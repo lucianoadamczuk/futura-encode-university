@@ -18,7 +18,9 @@ export interface IcareersProps {
 }
 
 export const getCareers = () => {
-	const [dataCareers, setDataCareers] = useState<IcareersProps[]>([]);
+	const [dataCareers, setDataCareers] = useState<IcareersProps[] | undefined>(
+		[]
+	);
 	async function fetchData() {
 		try {
 			setTimeout(() => {

@@ -5,7 +5,7 @@ type Props = {
 	darkMode?: boolean;
 	title?: string;
 	subtitle?: string;
-	text?: string[];
+	text?: string[] | string;
 };
 
 export const TextBox = (props: Props) => {
@@ -26,11 +26,15 @@ export const TextBox = (props: Props) => {
 				</div>
 
 				{/* text */}
-				{text?.map((item) => (
-					<p key={uuidv4()} className={` my-2 ${darkMode && 'text-light'}`}>
-						{item}
-					</p>
-				))}
+				{Array.isArray(text) ? (
+					text?.map((item) => (
+						<p key={uuidv4()} className={` my-2 ${darkMode && 'text-light'}`}>
+							{item}
+						</p>
+					))
+				) : (
+					<p className={darkMode ? 'text-light' : ''}> {text} </p>
+				)}
 			</section>
 		</div>
 	);

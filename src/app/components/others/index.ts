@@ -1,1 +1,1 @@
-export { SplitImage } from './SlitImage/SplitImage';
+export { SplitImage } from './SplitImage/SplitImage';

@@ -14,3 +14,4 @@ export { CarouselCoverflow } from './carousels/CarouselCoverflow';
 
 // banner
 export { Banner } from './Banner';
+export { Accordion } from './Accordion';

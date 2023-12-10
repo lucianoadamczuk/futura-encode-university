@@ -15,7 +15,7 @@ export const data = [
 			'Frontend Frameworks (React, Angular, Vue)',
 			'Responsive Web Design',
 		],
-		objectives: [
+		objetives: [
 			'Build responsive and user-friendly websites',
 			'Create interactive user interfaces',
 			'Master popular frontend frameworks',
@@ -47,7 +47,7 @@ export const data = [
 			'API Development',
 			'Security and Performance Optimization',
 		],
-		objectives: [
+		objetives: [
 			'Develop server-side applications',
 			'Integrate databases for data storage',
 			'Create and manage APIs',
@@ -79,7 +79,7 @@ export const data = [
 			'Big Data Analytics',
 			'Data Visualization',
 		],
-		objectives: [
+		objetives: [
 			'Master statistical analysis techniques',
 			'Apply machine learning algorithms to solve real-world problems',
 			'Handle and analyze big datasets',
@@ -111,7 +111,7 @@ export const data = [
 			'Graphics and Animation',
 			'Multiplayer Game Development',
 		],
-		objectives: [
+		objetives: [
 			'Design engaging game concepts',
 			'Develop games using popular game engines',
 			'Create stunning graphics and animations',
@@ -143,7 +143,7 @@ export const data = [
 			'Performance Testing',
 			'Security Testing',
 		],
-		objectives: [
+		objetives: [
 			'Conduct effective software testing',
 			'Implement automated testing strategies',
 			'Evaluate software performance',
@@ -175,7 +175,7 @@ export const data = [
 			'Immersive Storytelling',
 			'VR in Industry Applications',
 		],
-		objectives: [
+		objetives: [
 			'Understand the principles of virtual reality',
 			'Develop applications for VR platforms',
 			'Create immersive storytelling experiences',
@@ -207,7 +207,7 @@ export const data = [
 			'Unsupervised Learning Techniques',
 			'Deep Learning and Neural Networks',
 		],
-		objectives: [
+		objetives: [
 			'Understand fundamental machine learning concepts',
 			'Apply supervised learning algorithms to real-world problems',
 			'Explore unsupervised learning techniques',
@@ -239,7 +239,7 @@ export const data = [
 			'Hispanic Literature',
 			'Culture and Traditions',
 		],
-		objectives: [
+		objetives: [
 			'Master the rules of Spanish grammar',
 			'Improve oral and written communication skills',
 			'Explore Hispanic literature',
@@ -271,7 +271,7 @@ export const data = [
 			'Literature',
 			'Culture and Traditions',
 		],
-		objectives: [
+		objetives: [
 			'Master Russian grammar',
 			'Enhance oral and written communication skills',
 			'Explore Russian literature',
@@ -303,7 +303,7 @@ export const data = [
 			'Chinese Literature',
 			'Culture and Traditions',
 		],
-		objectives: [
+		objetives: [
 			'Master Chinese grammar rules',
 			'Enhance oral and written communication skills',
 			'Explore Chinese literature',
@@ -329,7 +329,15 @@ export const data = [
 		price: 349.99,
 		tendency: false,
 		phrase: 'Lead with Purpose, Inspire with Vision!',
-		objectives: [
+		structure: [
+			'Effective Communication Strategies',
+			'Strategic Decision-Making Techniques',
+			'Team Inspiration and Motivation',
+			'Creating a Positive Work Environment',
+			'Leadership in Challenging Situations',
+			'Continuous Leadership Development',
+		],
+		objetives: [
 			'Master effective communication',
 			'Develop strategic decision-making skills',
 			'Inspire and motivate teams',
@@ -355,7 +363,13 @@ export const data = [
 		price: 399.99,
 		tendency: true,
 		phrase: 'Empower Your Finances, Secure Your Future!',
-		objectives: [
+		structure: [
+			'Budgeting Fundamentals',
+			'Introduction to Investment',
+			'Wealth-Building Techniques',
+			'Financial Decision-Making',
+		],
+		objetives: [
 			'Master budgeting and financial planning',
 			'Understand investment strategies',
 			'Build and grow personal wealth',
@@ -372,28 +386,34 @@ export const data = [
 
 	// Blockchain
 	{
-		ID: 'BChainSkill3',
-		career: 'Blockchain',
+		ID: 'PrsnlFinSkill2',
+		career: 'Personal Finances',
 		orientation: 'skills',
 		description:
-			'Explore the revolutionary technology of blockchain. Learn the fundamentals, development, and applications. Dive into smart contracts and decentralized systems. Become a blockchain expert.',
-		duration: 16,
-		price: 499.99,
+			'Take control of your financial future. Learn budgeting, investing, and wealth-building strategies. Gain the knowledge to make informed financial decisions and achieve financial success.',
+		duration: 12,
+		price: 399.99,
 		tendency: true,
-		phrase: 'Unleash the Power of Decentralization!',
-		objectives: [
-			'Understand blockchain technology',
-			'Develop smart contracts',
-			'Explore decentralized applications',
-			'Apply blockchain in various industries',
+		phrase: 'Empower Your Finances, Secure Your Future!',
+		structure: [
+			'Budgeting Fundamentals',
+			'Introduction to Investment',
+			'Wealth-Building Techniques',
+			'Financial Decision-Making',
+		],
+		objetives: [
+			'Master budgeting and financial planning',
+			'Understand investment strategies',
+			'Build and grow personal wealth',
+			'Make informed financial decisions',
 		],
 		requiredResources: [
-			'Blockchain development tools',
-			'Computer with internet access',
-			'Interest in decentralized technology',
+			'Personal finance books and resources',
+			'Budgeting tools',
+			'Investment account (optional)',
 		],
-		color: '#27ae60',
-		src: '/careers/blockchain.jpg',
+		color: '#3498db',
+		src: '/careers/personal-finances.jpg',
 	},
 
 	// Trading
@@ -407,7 +427,13 @@ export const data = [
 		price: 449.99,
 		tendency: false,
 		phrase: 'Navigate Financial Markets with Precision!',
-		objectives: [
+		structure: [
+			'Technical Analysis Mastery',
+			'Effective Risk Management',
+			'Profitable Trading Strategies',
+			'Navigation of Stocks, Forex, and Cryptocurrencies',
+		],
+		objetives: [
 			'Master technical analysis',
 			'Implement effective risk management',
 			'Develop profitable trading strategies',

@@ -41,7 +41,7 @@ export const CarouselCoverflow = (props: Props) => {
 				className='mySwiper'
 			>
 				{displayCareers?.map((item) => (
-					<SwiperSlide>
+					<SwiperSlide key={item.ID}>
 						<CardCareer
 							href={'/careers/' + item.ID}
 							src={item.src}
