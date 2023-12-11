@@ -1,9 +1,7 @@
 'use client';
 import { TextHeaderBox } from '@/app/components/common/TextHeaderBox';
 import Image from 'next/image';
-import React, { useContext } from 'react';
 import { LayoutGrid } from '..';
-import { ContextModal } from '@/app/contexts/ContextModal';
 
 type Props = {
 	firstDirection: string;
@@ -14,11 +12,9 @@ type Props = {
 	subtitle: string;
 	text: string;
 	image: string;
-	onClick?: () => void;
 };
 
 export const HeaderMain = (props: Props) => {
-	const { setIsModalOpen } = useContext(ContextModal);
 	const {
 		firstDirection,
 		firstText,
@@ -28,7 +24,6 @@ export const HeaderMain = (props: Props) => {
 		subtitle,
 		text,
 		image,
-		onClick,
 	} = props;
 	return (
 		<header className=' w-full h-full lg:py-24 relative bg-dark-soft'>

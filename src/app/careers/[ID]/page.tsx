@@ -3,12 +3,11 @@ import { Button } from '@/app/components/UI';
 import { List } from '@/app/components/common/List';
 import { TextBox } from '@/app/components/common/TextBox';
 import { Loader } from '@/app/components/others';
-import { ContextModal } from '@/app/contexts/ContextModal';
 import { LayoutGrid } from '@/app/layouts';
 import { IcareersProps, getCareers } from '@/app/services/getCareers';
 import Image from 'next/image';
 import { useParams } from 'next/navigation';
-import { lazy, useContext, useEffect, useState } from 'react';
+import { lazy, useEffect, useState } from 'react';
 type Props = {};
 
 const Header = lazy(() => import('../../layouts/headers/Header'));
@@ -28,8 +27,6 @@ export default function Page({}: Props) {
 		console.log(data);
 		foundData();
 	}, [dataCareers, params.ID]);
-
-	const { setIsModalOpen } = useContext(ContextModal);
 
 	if (data) {
 		return (
