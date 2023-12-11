@@ -12,7 +12,7 @@ export const LayoutOut = (props: Props) => {
 
 	return (
 		<section
-			className={`py-5 minh bg-gradient-to-t from-60%  to-40% grid grid-cols-3 
+			className={`py-5 min bg-gradient-to-t from-60%  to-40% grid grid-cols-3 
 			${invertY ? 'from-dark to-light' : 'from-light to-dark'} `}
 		>
 			<div className={`${invertX && 'order-2'}`}></div>

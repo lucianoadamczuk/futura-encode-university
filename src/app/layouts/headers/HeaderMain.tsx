@@ -26,7 +26,7 @@ export const HeaderMain = (props: Props) => {
 		image,
 	} = props;
 	return (
-		<header className=' w-full h-full lg:py-24 relative bg-dark-soft'>
+		<header className=' w-full h-full lg:py-24 2xl:py-56 relative bg-dark-soft'>
 			<div
 				className=' h-72 lg:hidden bg-primary'
 				style={{
