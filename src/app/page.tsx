@@ -1,4 +1,3 @@
-'use client';
 import Image from 'next/image';
 import { v4 as uuidv4 } from 'uuid';
 import {
@@ -11,14 +10,24 @@ import {
 } from './components/UI';
 import { TextBox } from './components/common/TextBox';
 import { content } from './content/home';
-import { LayoutGrid, LayoutOut } from './layouts';
+import { HeaderMain, LayoutGrid, LayoutOut } from './layouts';
 
 export default function Home() {
 	return (
 		<>
+			<HeaderMain
+				title={content.header.title}
+				subtitle={content.header.subtitle}
+				text={content.header.text}
+				image={content.header.image}
+				firstDirection='#start'
+				firstText='Start now'
+				secondDirection='/careers'
+				secondText='Careers'
+			/>
 			<main>
 				{/* intro */}
-				<LayoutGrid>
+				<LayoutGrid ID='start'>
 					<TextBox
 						title={content.intro.title}
 						subtitle={content.intro.subtitle}

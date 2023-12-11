@@ -13,7 +13,7 @@ export const Button = (props: Props) => {
 	return (
 		<Link
 			href={href}
-			className={`md:w-fit px-5 py-2 flex items-center gap-3 text-center hover:scale-105  ${
+			className={`md:w-fit px-5 py-2 flex justify-between items-center gap-3 text-center hover:scale-105  ${
 				primary
 					? 'text-light  bg-primary hover:bg-primary-dark'
 					: ' text-secondary border-2 border-secondary hover:border-secondary-dark'

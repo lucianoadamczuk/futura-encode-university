@@ -25,7 +25,7 @@ export const getCareers = () => {
 		try {
 			setTimeout(() => {
 				setDataCareers(data);
-			}, 3000);
+			}, 0);
 		} catch (error) {
 			console.log(error);
 		}

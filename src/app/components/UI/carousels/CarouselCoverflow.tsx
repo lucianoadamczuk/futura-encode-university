@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,15 +10,15 @@ import 'swiper/css/pagination';
 import './styles.css';
 
 // import required modules
+import { IcareersProps } from '@/app/services/getCareers';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { CardCareer } from '..';
-import { IcareersProps } from '@/app/services/getCareers';
 
 type Props = {
-	displayCareers: IcareersProps[];
+	displayCareers: IcareersProps[] | undefined;
 };
 
-export const CarouselCoverflow = (props: Props) => {
+export default function CarouselCoverflow(props: Props) {
 	const { displayCareers } = props;
 	return (
 		<>
@@ -28,7 +27,7 @@ export const CarouselCoverflow = (props: Props) => {
 				loop={true}
 				grabCursor={true}
 				centeredSlides={true}
-				slidesPerView={3}
+				slidesPerView={2}
 				coverflowEffect={{
 					rotate: 0,
 					stretch: 100,
@@ -54,4 +53,4 @@ export const CarouselCoverflow = (props: Props) => {
 			</Swiper>
 		</>
 	);
-};
+}

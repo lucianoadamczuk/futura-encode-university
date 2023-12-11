@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Open_Sans, Poppins } from 'next/font/google';
 import './globals.css';
 import { Footer } from './layouts';
+import { Navbar } from './layouts/Navbar';
 
 export const fontBase = Open_Sans({
 	subsets: ['latin', 'cyrillic'],
@@ -31,6 +32,7 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body className={`${fontTitle.variable} ${fontBase.variable}`}>
+				<Navbar />
 				{children}
 				<Footer />
 			</body>

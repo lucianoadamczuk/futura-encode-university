@@ -4,19 +4,20 @@ import { Button } from '../UI';
 type Props = {
 	firstDirection: string;
 	firstText: string;
-	secondDirection: string;
-	seconText: string;
+	secondDirection?: string;
+	secondText?: string;
 };
 
 export const ButtonsBox = (props: Props) => {
-	const { firstDirection, firstText, secondDirection, seconText } = props;
+	const { firstDirection, firstText, secondDirection, secondText } = props;
 	return (
 		<div className=' flex flex-col md:flex-row gap-5'>
 			<Button href={firstDirection} primary={true} callToAction={true}>
-				{' '}
-				{firstText}{' '}
+				{firstText}
 			</Button>
-			<Button href={secondDirection}> {seconText} </Button>
+			{secondDirection && secondText && (
+				<Button href={secondDirection}>{secondText}</Button>
+			)}
 		</div>
 	);
 };
